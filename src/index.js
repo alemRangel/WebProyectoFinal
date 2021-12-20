@@ -4,7 +4,7 @@ import Draggable from "./componentes/draggable";
 import Home from "./componentes/Home";
 import Login from "./componentes/Login";
 import Ratio from "./componentes/Ratio";
-import Perfil from "./componentes/Perfil";
+import PerfilNew from "./componentes/profile/PerfilNew";
 
 function App (){
     return (            
@@ -13,7 +13,7 @@ function App (){
                     <Route path="/" element={<Login />} />
                     <Route path="login" element={<Login />} />
                     <Route path="perfil/">
-                        <Route path="new" element={<Perfil />} />
+                        <Route path="new" element={<PerfilNew />} />
                         <Route path="show" element={<Ratio />} />
                     </Route>
                     <Route path="ratio" element={<Ratio />} />

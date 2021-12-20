@@ -41,7 +41,7 @@ class Login extends React.Component {
                     Password:
                     <input type="password" value={this.state.pass} onChange={this.handleChangePass} />
                 </label>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Entrar Al Sistema" />
                 <Link to = "/perfil/new">Nuevo Perfil</Link>
             </form>
         );
